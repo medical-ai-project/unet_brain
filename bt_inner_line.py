@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2  # OpenCVをインポート
+import cv2
 from tifffile import imread
 import os
 import glob
