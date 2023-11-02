@@ -1,0 +1,3 @@
+bigdata/
+.ipynb_checkpoints/
+brain-mri-unet.pth

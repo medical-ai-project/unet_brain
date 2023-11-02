@@ -1,0 +1,18 @@
+# Python 3.11.5
+numpy==1.23.5
+matplotlib==3.7.2
+tifffile==2023.4.12 
+
+
+
+# numpy
+# matplotlib
+pandas
+opencv-python-headless==4.5.5.62
+Pillow
+torch
+torchvision
+albumentations
+scikit-learn
+tqdm
+
