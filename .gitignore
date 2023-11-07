@@ -1,3 +1,7 @@
 bigdata/
 .ipynb_checkpoints/
 brain-mri-unet.pth
+
+
+test2.py
+output.ply
