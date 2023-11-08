@@ -5,17 +5,17 @@ from tifffile import imread
 import os
 import glob
 from matplotlib import cm
-# surudoi
+
+
+# set id you wanna plot.
 person_id = "TCGA_HT_7881_19981015"
 # person_id = "TCGA_HT_A61A_20000127"
-
-# simple
 # person_id = "TCGA_CS_5396_20010302"
-# maru
 # person_id = "TCGA_DU_5872_19950223"
-# 画像のパスを取得
+
 curr_dir_path = os.path.dirname(os.path.abspath(__file__))
-base_path = os.path.join(curr_dir_path, "bigdata", "kaggle_3m", person_id)
+base_path = os.path.join(curr_dir_path, "..", "..", "bigdata", "kaggle_3m", person_id)
+
 # 腫瘍のマスク画像のパスを取得
 mask_image_paths = glob.glob(os.path.join(base_path, f"{person_id}_*_mask.tif"))
 sorted_mask_image_paths = sorted(mask_image_paths, key=lambda name: int(name.split("_")[-2]))

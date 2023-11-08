@@ -18,13 +18,15 @@ requirements.txtも使用出来ますが、詳しいパッケージのバージ�
 
 
 ## 3dオブジェクト表示ファイル
+plotsディレクトリに3dプロットする為のコードが格納されています。  
+
 ・脳腫瘍と脳内部の線を含む3dオブジェクトを表示します。  
-/bt_inner_line.py  
+plots/plot_brain_and_tumor/bt_inner_line.py  
 ・脳腫瘍と脳の輪郭線の3dオブジェクトを表示します。  
-/bt_outer_line.py  
+plots/plot_brain_and_tumor/bt_outer_line.py  
 ・脳腫瘍の輪郭線の3dオブジェクトを表示します。  
-/t_line.py  
+plots/plot_tumor/t_line.py  
 ・脳腫瘍のsurfaceの3dオブジェクトを表示します。  
-/t_surface.py  
+plots/plot_tumor/t_surface.py  
 ・脳腫瘍をドットで3d表示します。  
-/t_dot.py  
+plots/plot_tumor/t_dot.py  
